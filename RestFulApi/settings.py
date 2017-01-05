@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'snippets.apps.SnippetsConfig',
     'rest_framework',
-    'quickstart'
+    'quickstart',
+    'pygments',
 ]
 
 MIDDLEWARE = [
